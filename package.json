@@ -1,0 +1,31 @@
+{
+  "name": "tbhfnewsapi",
+  "version": "1.0.0",
+  "description": "Turkih Ice Hockey Fedaration News API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanselberkant/TbhfNewsAPI.git"
+  },
+  "keywords": [
+    "TBHF"
+  ],
+  "author": "tanselberkant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanselberkant/TbhfNewsAPI/issues"
+  },
+  "homepage": "https://github.com/tanselberkant/TbhfNewsAPI#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13",
+    "prettier": "2.4.1"
+  }
+}
